@@ -1,0 +1,38 @@
+{
+    "fields": [
+        {
+            "name": "first_name",
+            "type": "string"
+        },
+        {
+            "name": "last_name",
+            "type": "string"
+        },
+        {
+            "name": "height",
+            "type": "string"
+        },
+        {
+            "name": "birth_date",
+            "type": "date"
+        }
+    ],
+    "validations": [
+        {
+            "field": "last_name",
+            "rules": "required"
+        },
+        {
+            "field": "first_name",
+            "rules": "required"
+        },
+        {
+            "field": "height",
+            "rules": "required"
+        },
+        {
+            "field": "birth_date",
+            "rules": "required"
+        }
+    ]
+}

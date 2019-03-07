@@ -1,0 +1,16 @@
+{
+    "fields": [
+        {
+            "name": "first_name",
+            "type": "string"
+        },
+        {
+            "name": "address",
+            "type": "string"
+        },
+        {
+            "name": "year_founded",
+            "type": "date"
+        }
+    ]
+}
